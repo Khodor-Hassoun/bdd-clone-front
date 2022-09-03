@@ -13,10 +13,15 @@ ul > li{
 img{
     height: 100%;
 }
+button{
+    background-color: #0078BE;
+    color: white;
+    border-radius: 1em;
+    padding: 0.8em;
+    border-style: hidden;
+}
 /* Hero section */
 .hero{
-    display: flex;
-    flex-direction: column;
     background-image: url("../images/hero2.jpg");
     background-size: cover;
     background-color: rgba(0, 0, 0, 0);
@@ -33,12 +38,16 @@ img{
 }
 .hero-content {
     display: flex;
+    /* justify-content: center;
+    align-items: center; */
     /* padding: 50vh 50vw ; */
-    width: 50%;
+    width: 100%;
+    height: 100%;
   }
   .hero-heading {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    margin-bottom: 40px;
+    flex-basis: content;
+    /* margin-bottom: 40px; */
   }
