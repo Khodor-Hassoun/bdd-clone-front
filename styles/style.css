@@ -331,3 +331,37 @@ button{
     justify-content: center;
     padding-bottom: 30px;
 }
+
+
+/* Start Testimony */
+.testimony-container{
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.testimony-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.testimony-part2{
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.testimony-card{
+    width: 50%;
+    border:solid;
+    border-width: thin;
+    margin: 0 20px;
+
+}
+.testimony-card img{
+    width: 90px;
+    height: 90px;
+}
+.testimony-card img, p{
+    margin-left: 10%;
+}
