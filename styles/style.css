@@ -150,6 +150,7 @@ button{
     height: 60%; */
   }
 
+
 /* BDD JOIN */
 .join-content{
     display: flex;
@@ -227,4 +228,39 @@ button{
 }
 .join-content-footer img{
     width: 10vw;
+}
+
+
+/* BDD HUB */
+
+.hub-container{
+    background:linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url("../images/bdd-stats-background.jpg");
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hub-content{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+.hub-header{
+    text-align: center;
+}
+.hub-images-con{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hub-image{
+    text-align: center;
+}
+.hub-image img{
+    height: 80px;
 }
